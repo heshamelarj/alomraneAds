@@ -1,6 +1,9 @@
 main {
   height: 2000px;
 }
+body{
+  width: 100%;
+}
 
 .navbar.navbar-default {
   background-color: transparent;
