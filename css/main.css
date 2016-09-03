@@ -17,6 +17,9 @@ main {
   margin-top: -70px;
 }
 
+.card-carousel{
+  box-shadow: 0 0 0 0;
+}
 
 #navbar-primary .navbar-nav {
   width: 100%;
