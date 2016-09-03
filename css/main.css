@@ -2,23 +2,10 @@ main {
   height: 2000px;
 }
 
+/*Navbar styles*/
 .navbar.navbar-default {
   background-color: transparent;
   box-shadow: 0 0 0 0 ;
-}
-
-.colored {
-  background-color: #ffffff;
-}
-
-#carousel {
-  width: 100vw;
-  height: 100vh;
-  margin-top: -70px;
-}
-
-.card-carousel{
-  box-shadow: 0 0 0 0;
 }
 
 #navbar-primary .navbar-nav {
@@ -33,6 +20,25 @@ main {
   padding-left: 30px;
   padding-right: 30px;
 }
+
+#navbar-primary .navbar-nav > li > a {
+  font-size: 12pt;
+  font-weight: 500;
+}
+
+/*End of navbar styles*/
+
+#carousel {
+  width: 100vw;
+  height: 100vh;
+  margin-top: -70px;
+}
+
+.card-carousel{
+  box-shadow: 0 0 0 0;
+}
+
+
 
 .main-text {
   width: 100vw;
