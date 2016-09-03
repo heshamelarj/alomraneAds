@@ -1,7 +1,3 @@
-main {
-  height: 2000px;
-}
-
 /*Navbar styles*/
 .navbar.navbar-default {
   background-color: transparent;
@@ -28,17 +24,20 @@ main {
 
 /*End of navbar styles*/
 
+/*Carousel styles */
 #carousel {
   width: 100vw;
-  height: 100vh;
-  margin-top: -70px;
 }
 
 .card-carousel{
   box-shadow: 0 0 0 0;
 }
 
+.section {
+  padding:0;
 
+}
+/*End carousel styles*/
 
 .main-text {
   width: 100vw;
@@ -48,3 +47,43 @@ main {
   text-align: center;
   position: absolute;
 }
+
+
+/*header styles*/
+
+#header {
+  margin-top: -25px;
+}
+
+.header-bg {
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  color: #ffffff;
+}
+
+.header-title {
+  font-weight: 500;
+}
+
+/*End of header styles */
+
+/*Gallery styles*/
+
+/*
+#gallery .col-lg-6,
+#gallery .col-lg-12{
+  padding: 0;
+}
+
+*/
+
+table tr td:first-child{
+  font-size: 12pt;
+  font-weight: 500;
+}
+table tr td:nth-child(2){
+  font-size: 12pt;
+  font-weight: 300;
+}
+/*End of gallery styles*/
