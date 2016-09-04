@@ -5,13 +5,15 @@ $(document).ready(function(){
             $(document).scroll(function() {
                 scroll_pos = $(this).scrollTop();
                 if(scroll_pos > 110) {
-                    $("#navbar-primary").css('background-color', '#892BA9');
+                    $("#navbar-primary").css('background', 'linear-gradient(60deg, #ab47bc, #7b1fa2)');
+                    // box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+                    $("#navbar-primary").css('box-shadow', '0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)');
                     $("#navbar-primary .navbar-nav > li").css('color', 'white');
                     $('.nav > li > a').css('padding', '0 30px');
                 } else {
-                    $("#navbar-primary").css('background-color', 'transparent');
+                    $("#navbar-primary").css('background', 'transparent');
                     $("#navbar-primary .navbar-nav > li").css('color', 'white');
-
+                    $("#navbar-primary").css('box-shadow', '0 0 0 0');
                     $('.nav > li > a').css('padding', '15px 30px');
                 }
             });
