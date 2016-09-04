@@ -79,6 +79,9 @@
 
 */
 
+
+/*End of gallery styles*/
+/*infos styles*/
 table tr td:first-child{
   font-size: 12pt;
   font-weight: 500;
@@ -87,4 +90,14 @@ table tr td:nth-child(2){
   font-size: 12pt;
   font-weight: 300;
 }
-/*End of gallery styles*/
+.infos{
+  margin-top: 10px;
+  box-shadow: 10px 10px 5px #888888;
+}
+.gallery{
+  margin-top: 10px;
+  box-shadow: -10px 10px  5px 2px #888888;
+  height: 355px;
+}
+
+/*end of info styles*/
