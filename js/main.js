@@ -1,4 +1,6 @@
 $(document).ready(function(){
+    AOS.init();
+
             var scroll_pos = 0;
             $(document).scroll(function() {
                 scroll_pos = $(this).scrollTop();
@@ -102,6 +104,7 @@ $(document).ready(function(){
 
 // Destroys the lightbox
     gallery.destroy();
+
 
 
 });
