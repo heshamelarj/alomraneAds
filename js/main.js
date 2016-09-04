@@ -114,10 +114,16 @@ Google Api Key
  */
 
 function initMap() {
+    var myLatLng = {lat: 34.653861, lng: -1.910353};
     var mapDiv = document.getElementById('lacoline_map');
     var map = new google.maps.Map(mapDiv, {
-        center: {lat: 34.653861, lng: -1.910353},
-        zoom: 17
+        center: myLatLng,
+        zoom: 13
+    });
+    var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: 'Alomrane-La COLINE!'
     });
 }
 
