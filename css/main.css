@@ -111,3 +111,9 @@ table tr td:nth-child(2){
   
   height: 300px;
 }
+
+/*Spacer*/
+.spacer {
+  height:50px;
+}
+/*End spacer*/
