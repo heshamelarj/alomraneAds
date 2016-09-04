@@ -28,11 +28,11 @@
 #carousel {
   width: 100vw;
 }
-
+/*
 .card-carousel{
   box-shadow: 0 0 0 0;
 }
-
+*/
 .section {
   padding:0;
 
@@ -61,6 +61,7 @@
   background-image: url("../img/photo-1436918671239-a2b72ace4880.png");
   background-size: cover;
   color: #ffffff;
+  box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
 .header-title {
@@ -92,7 +93,7 @@ table tr td:nth-child(2){
 }
 .infos{
   margin-top: 10px;
-  box-shadow: 10px 10px 5px #888888;
+  box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 .gallery{
   margin-top: 10px;
