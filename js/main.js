@@ -108,3 +108,16 @@ $(document).ready(function(){
 
 
 });
+/*
+Google Api Key
+ AIzaSyA0HSG50J7Q_KJOFpciT0R4RVW8u8vZ-yY
+ */
+
+function initMap() {
+    var mapDiv = document.getElementById('lacoline_map');
+    var map = new google.maps.Map(mapDiv, {
+        center: {lat: 34.653861, lng: -1.910353},
+        zoom: 17
+    });
+}
+
