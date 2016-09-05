@@ -18,7 +18,7 @@ $(document).ready(function(){
             });
 
     var gallery = $('.gallery a').simpleLightbox();
-
+/*
     $.simpleLightbox({
 
 // shows fullscreen overlay
@@ -32,6 +32,16 @@ $(document).ready(function(){
 
 // text for navigation arrows
             navText:    ['&larr;','&rarr;'],
+
+// shows image captions
+            captions:   true,
+            captionDelay:   0,
+            captionSelector:  'img',
+            captionType:    'attr',
+            captionPosition:  'bottom',
+
+// captions attribute (title or data-title)
+            captionsData: 'title',
 
 // shows close button
             close:      true,
@@ -77,7 +87,7 @@ $(document).ready(function(){
 
 
 });
-
+*/
     // Opens the lightbox
     gallery.open();
 
