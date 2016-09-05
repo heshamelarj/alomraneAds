@@ -18,7 +18,7 @@ $(document).ready(function(){
             });
 
     var gallery = $('.gallery a').simpleLightbox();
-/*
+
     $.simpleLightbox({
 
 // shows fullscreen overlay
@@ -87,7 +87,7 @@ $(document).ready(function(){
 
 
 });
-*/
+
     // Opens the lightbox
     gallery.open();
 
