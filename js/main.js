@@ -8,16 +8,17 @@ $(document).ready(function(){
                     $("#navbar-primary").css('background-color', '#ffffff');
                     $("#navbar-primary .navbar-nav > li").css('color', 'black');
                     $('.nav > li > a').css('padding', '0 30px');
+                    $("#navbar-primary").css('box-shadow', '0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)');
                 } else {
                     $("#navbar-primary").css('background-color', 'transparent');
                     $("#navbar-primary .navbar-nav > li").css('color', 'white');
-
+                    $("#navbar-primary").css('box-shadow', '0 0 0 0');
                     $('.nav > li > a').css('padding', '15px 30px');
                 }
             });
 
     var gallery = $('.gallery a').simpleLightbox();
-
+/*
     $.simpleLightbox({
 
 // shows fullscreen overlay
@@ -86,7 +87,7 @@ $(document).ready(function(){
 
 
 });
-
+*/
     // Opens the lightbox
     gallery.open();
 

@@ -94,6 +94,7 @@ table tr td:first-child{
 table tr td:nth-child(2){
   font-size: 8pt;
   font-weight: 400;
+  text-transform: capitalize;
 }
 .infos{
   margin-top: 10px;
@@ -118,6 +119,31 @@ table tr td:nth-child(2){
 /*End spacer*/
 /*gallery images styling*/
 .img-shadow{
-  padding: 2px 2px 2px 2px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  margin: 5px 0;
+  box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
+
+/*Map fucking bullshit */
+
+.text-justify{
+  text-align: center;
+}
+/*End of map fukcing bullshit*/
+
+
+/*Footer styling*/
+footer {
+  margin:30px 0 0 0;
+  height:70px;
+  background-color: #757575;
+  padding:0;
+}
+
+footer p {
+  margin:0;
+  color: #eeeeee;
+  text-align: center;
+  line-height: 70px;
+  vertical-align: middle;
+}
+/*End of footer styling*/
