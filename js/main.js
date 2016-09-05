@@ -5,8 +5,8 @@ $(document).ready(function(){
             $(document).scroll(function() {
                 scroll_pos = $(this).scrollTop();
                 if(scroll_pos > 110) {
-                    $("#navbar-primary").css('background-color', '#892BA9');
-                    $("#navbar-primary .navbar-nav > li").css('color', 'white');
+                    $("#navbar-primary").css('background-color', '#ffffff');
+                    $("#navbar-primary .navbar-nav > li").css('color', 'black');
                     $('.nav > li > a').css('padding', '0 30px');
                 } else {
                     $("#navbar-primary").css('background-color', 'transparent');
